@@ -1,0 +1,16 @@
+server:
+  port: 8020
+
+spring:
+  application:
+    name: order-service
+
+  profiles:
+    active: dev
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:7001
+        username: nacos
+        password: nacos
